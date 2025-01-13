@@ -1,0 +1,50 @@
+.card-comments__load_more {
+    font-weight: 300;
+    font-size: 0.625rem;
+    line-height: 1.5;
+    /*float: right;*/
+    letter-spacing: 0.02em;
+    border: none;
+    text-decoration: underline;
+    color: #779ECB;
+    background: transparent;
+    cursor: pointer;
+    padding-left: 25px
+}
+
+.parent_card-comments__item {
+    margin-bottom: 16px;
+    padding-left: 25px;
+}
+
+.show_next_comments {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.next_comments {
+    text-align: center;
+    border-radius: 4px;
+    position: relative;
+    z-index: 10;
+    display: block;
+    background: #fff;
+    border: 1px solid #CABB86;
+    font-size: 0.75rem;
+    color: #333333;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: inherit;
+    padding: 10px 30px 10px 30px;
+}
+
+@media screen and (min-width: 640px) {
+    .card-comments__load_more {
+        font-size: 0.75rem;
+        letter-spacing: 0.05em;
+    }
+}
